@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Source+Sans+Pro');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+}
+
+img {
+    max-width: 100%
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+header {
+    background-color: #F6F9F9;
+    overflow: hidden
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+nav {
+    float: right
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {}
+
+.banner {
+    background: url(../images/i.jpeg);
+    padding: 50px 0px;
+    text-align: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.banner_content {
+    
+}
+.banner_content h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+}
+.banner_content span{
+       background: #16A3F8;
+    height: 3px;
+    display: block;
+    width: 70%;
+    margin-left: 180px;
+}
+
+.banner_content p{
+    color: white;
+    margin-top: 25px
+}
+
+.banner_content button{
+    background: transparent;
+    color: white;
+    padding: 5px;
+    border: 1px solid #16A3F8;
+    margin-top: 25px
+}
+
+.banner_content a{
+    display: block;
+    margin-top: 135px
+}
+
+.feature_content {
+   
+}
+
+.content {
+     text-align: center;
+    padding: 50px 0;
+    background-color: #F6F9F9;
+}
+.content h1{
+    color: #2D3950;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: normal
+}
+.content p{
+    color: #A0A0A0;
+}
+
+.content_block {
+    width:33.33%;
+    float: left;
+    text-align: center
+}
+.content_block img{}
+.content_block h1{
+    color: #2E3A51;
+    text-transform: capitalize
+}
+
+.content_block p{
+    color:#A1A1A1
+}
+
+.gellary_section {
+    background-color: #F6F9F9;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image_gellary{
+
+    width:30%;
+    float: left;
+    padding: 3px
+}
+
+
+.gellary img{
+    display: block;
+
+}
+.content_images{
+    width: 100%
+}
+
+
+.contact_section {
+    background: url("../images/b.jpeg");
+    background-size: cover;
+    text-align: center;
+    min-height:550px
+}
+
+.contact_section h2{
+    font-size: 35px;
+    color: #182632;
+    font-weight: normal;
+    text-transform: capitalize
+        
+}
+
+.contact_section p{
+    color: #253039;
+    
+}
+
+.from {
+    width: 50%;
+    margin: 0 auto
+}
+.from input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #909193;
+    background: transparent;
+    margin-bottom: 10px
+}
+.from textarea{
+     width: 100%;
+    border-radius: 5px;
+    border: 1px solid #909193;
+    background: transparent;
+}
+.from ul {
+    width: 100%;
+}
+
+.from ul .floatleft{
+    float: left
+}
+
+.from ul .floatleft span{
+    color:white
+}
+
+.from ul li {
+    display: inline
+}
+
+.from ul li .check_box{
+     width: auto;
+    
+}
+
+
+.from ul li .send_box{
+    width: 25%;
+    float: right;
+    border: 1px solid white;
+    background: transparent;
+    color: red
+}
+
+.footer {
+    padding: 15px
+}
+
+.copyright {
+    font-size: 14px;
+    color: #A4A5A5;
+    width: 25%;
+    float: left
+}
+
+.social_icon {
+    width: 75%;
+    float: right;
+}
+
+.social_icon ul{
+    float: right
+}
+.social_icon ul li{
+    display: inline;
+}
+.social_icon ul li a{}
+.social_icon ul li a i{}
